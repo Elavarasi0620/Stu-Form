@@ -1,0 +1,96 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background:linear-gradient (135deg, #71b7e6, #9b5966);
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+h2 {
+  color: #333;
+}
+
+/* Styles for the 2nd Page (Student Registration Form) */
+form {
+  margin-top: 20px;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #4188c5;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: bold;
+  transition: background-color 0.15s,
+  opacity 0.15s;
+}
+.container form .view-button{
+  margin-left: 20px;
+}
+.container form .view-button:hover{
+  background-color: #5998cf;
+}
+.container form .submit-button:hover{
+  background-color: #5998cf;
+}
+
+.container form .view-button:active{   
+  opacity: 0.5;
+}
+
+.container form .submit-button:active{   
+  opacity: 0.5;
+}
+.student-table{
+  
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: bold;
+
+}
+/* Styles for the 3rd Page (Student Table Display) */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Additional styles can be added based on your design preferences */
+
+
